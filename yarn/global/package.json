@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@nestjs/cli": "^9.3.0",
+    "create-next-app": "^13.0.7"
+  }
+}
