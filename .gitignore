@@ -3,3 +3,13 @@ node_modules/
 *.txt
 iterm2/
 configstore/
+
+# Ignore everything
+*
+!*/
+
+# Except
+!.gitignore
+!nvim
+!skhd
+!yabai

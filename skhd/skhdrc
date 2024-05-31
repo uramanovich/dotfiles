@@ -56,6 +56,10 @@ shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
 shift + alt - p : yabai -m window --space prev;
 shift + alt - n : yabai -m window --space next;
 
+# focus on next or prev window
+ctrl + alt - n : yabai -m space --focus next || yabai -m space --focus first
+ctrl + alt - p : yabai -m space --focus prev || yabai -m space --focus last 
+
 # move window to space #
 shift + alt - 1 : yabai -m window --space 1;
 shift + alt - 2 : yabai -m window --space 2;
