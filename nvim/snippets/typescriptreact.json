@@ -1,0 +1,16 @@
+{
+  "React component": {
+    "prefix": "comp",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type Props = {}",
+      "",
+      "const ${1:name} = ({}: Props) => {",
+      "  return (",
+      "    <div>${1:name}</div>",
+      "  );",
+      "}"
+    ]
+  }
+}

@@ -3,10 +3,9 @@ node_modules/
 *.txt
 iterm2/
 configstore/
-
-# Ignore everything
-*
-!*/
+yarn
+gcloud
+github-copilot
 
 # Except
 !.gitignore
