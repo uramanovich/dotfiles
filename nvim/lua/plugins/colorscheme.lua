@@ -1,13 +1,15 @@
 return {
   {
-    "navarasu/onedark.nvim",
-    name = "onedark",
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
+    opts = {
+      transparent_background = true,
+    },
   },
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "tokyonight",
-    },
+    "navarasu/onedark.nvim",
+    name = "onedark",
   },
   {
     "folke/tokyonight.nvim",
@@ -17,6 +19,12 @@ return {
         sidebars = "transparent",
         floats = "transparent",
       },
+    },
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin",
     },
   },
 }

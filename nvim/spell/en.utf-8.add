@@ -71,3 +71,10 @@ gitignore
 apricolabs
 mooon
 alacritty
+mongo
+pydantic
+middlewares
+fastapi
+odmantic
+retrieveing
+openai
