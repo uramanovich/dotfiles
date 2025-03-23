@@ -6,6 +6,10 @@ configstore/
 yarn
 gcloud
 github-copilot
+.DS_Store
+yarn
+builder
+op
 
 # Except
 !.gitignore
